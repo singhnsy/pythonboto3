@@ -1,0 +1,101 @@
+In Python, variables are used to store data that can be used and manipulated throughout a program. Unlike other programming languages, Python doesn't require you to explicitly declare the variable type, as it is dynamically typed.
+
+Here are some common types of variables in Python with examples:
+
+1. String Variable
+A string variable is used to store a sequence of characters.
+
+name = "Alice"
+print(name)  # Output: Alice
+
+2. Integer Variable
+An integer variable stores whole numbers (positive or negative).
+
+age = 25
+print(age)  # Output: 25
+
+3. Float Variable
+A float variable stores decimal numbers.
+
+height = 5.9
+print(height)  # Output: 5.9
+
+4. Boolean Variable
+A boolean variable stores either True or False.
+
+is_student = True
+print(is_student)  # Output: True
+
+5. List Variable
+A list is a collection of items (can be of different types) that is ordered and changeable.
+
+fruits = ["apple", "banana", "cherry"]
+print(fruits)  # Output: ['apple', 'banana', 'cherry']
+
+6. Tuple Variable
+A tuple is a collection which is ordered but immutable (cannot be changed).
+
+coordinates = (10, 20)
+print(coordinates)  # Output: (10, 20)
+
+7. Dictionary Variable
+A dictionary is a collection of key-value pairs, which is unordered, changeable, and indexed.
+
+student = {"name": "Alice", "age": 25, "major": "Computer Science"}
+print(student["name"])  # Output: Alice
+
+8. Set Variable
+A set is a collection which is unordered and does not allow duplicate values.
+
+unique_numbers = {1, 2, 3, 4, 2}
+print(unique_numbers)  # Output: {1, 2, 3, 4}
+
+9. None Variable
+None is a special constant in Python that represents the absence of a value or a null value.
+
+result = None
+print(result)  # Output: None
+
+Local and Global Varaibles
+
+Local Varaibles
+
+1. 
+def my_function():
+    print("Hello from a function")
+my_function()
+
+def addition():
+    num1 = 40
+    num2 = 30
+    print ( num1 + num2)
+
+addition()
+
+def subs():
+    num1 = 50
+    num2 = 25
+    print ( num1 - num2)
+
+subs()
+
+Global Varaibles
+2. 
+num1 = 100
+num2 = 30
+
+def my_function():
+    print("Hello from a function")
+my_function()
+
+def addition():
+    num1 = 50
+    num2 = 20
+    print ( num1 + num2)
+
+addition()
+
+def subs():
+    print ( num1 - num2)
+
+subs()

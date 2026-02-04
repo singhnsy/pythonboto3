@@ -1,0 +1,32 @@
+s1.py
+
+# if statement
+
+x = 10
+if x > 11:
+    print("x is greater than 5")
+
+else:
+    print("You have given a number greater than 10")
+	
+
+======
+======
+
+s2.py
+
+# if-else-if, else
+import sys
+type = sys.argv[1]
+
+if type == "t2.micro":
+    print("It will charge you 2 dollar per day")
+
+elif type == "t2.medium":
+    print("It will charge you 4 dollar per day")
+
+elif type == "t2.xlarge":
+    print ("It will charge 8 dollars per day")
+
+else:
+    print("Please provide a valid instance type like t2.micro, t2.medium & t2.xlarge")

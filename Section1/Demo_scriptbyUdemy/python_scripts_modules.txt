@@ -1,0 +1,44 @@
+import math
+
+# Calculate the square root of a number
+sqrt_value = math.sqrt(16)
+print(f"Square root of 16 is {sqrt_value}")
+
+======
+
+import os
+
+# Get the current working directory
+
+current_directory = os.getcwd()
+print(f"Current working directory: {current_directory}")
+
+# list the files and directories
+files = os.listdir(".")
+print(f"Files in the current directory: {files}")
+
+=======
+
+# Mymodule.py
+
+def greet(name):
+    return f"Hello, {name}"
+
+def add(a, b):
+    return a + b
+
+my_variable = 45
+
+======
+
+# Import the user-defined module
+import mymodule
+
+# Use the functions and variables from the module (mymodule)
+name = "Alice"
+greeting = mymodule.greet(name)
+print(greeting)
+
+#using the add function
+result = mymodule.add(10, 10)
+print(f"10 + 10 = {result}")

@@ -1,0 +1,83 @@
+s1.py
+
+#Simple Script to add two numbers
+def add(a, b):
+    return a + b
+
+# Calling the Function
+output = add(10, 15)
+print(output)
+
+==========
+
+s2.py
+
+import sys
+
+# Print all command line arguments
+print("Arguments Passed:", sys.argv)
+
+# Print First Argument
+print("First Argument:", sys.argv[1])
+
+# Print the Script Name
+print("Script Name:", sys.argv[0])
+
+# Print Second Argument
+print("Second Argument:", sys.argv[2])
+
+# Print Third Argument
+print("Third Argument:", sys.argv[3])
+
+==========
+
+s3.py
+
+import sys
+
+#Writing functions for add, sub & multiplication
+
+def add(num1, num2):
+    return num1 + num2
+
+def sub(num1, num2):
+    return num1 - num2
+
+def mult(num1, num2):
+    return num1 * num2
+
+num1 = int(sys.argv[1])
+operator = sys.argv[2]
+num2 = int(sys.argv[3])
+
+if operator == 'add':
+    output = add(num1, num2)
+    print (output)
+elif operator == 'sub':
+    output = sub(num1, num2)
+    print (output)
+elif operator == 'mult':
+    output = mult(num1, num2)
+    print(output)
+else: 
+    print("Please give the correct operator, it is add, sub, multi")
+	
+	
+===
+s4.py
+
+import sys
+
+# Print all command-line arguments
+print("Arguments passed:", sys.argv)
+
+# First argument is always the script name
+script_name = sys.argv[0]
+print("Script name:", script_name)
+
+# Other arguments are passed from index 1 onward
+if len(sys.argv) > 1:
+    first_argument = sys.argv[1]
+    print("First argument:", first_argument)
+else:
+    print("No arguments passed.")

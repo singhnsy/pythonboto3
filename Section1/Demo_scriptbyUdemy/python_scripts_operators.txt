@@ -1,0 +1,155 @@
+====================
+Arithmetic Operators
+====================
+s1.py
+
+a = 5
+b = 3
+result = a + b
+print(result)
+
+======
+s2.py
+
+a = 10
+b = 4
+result = a - b
+print(result)
+
+=======
+s3.py
+
+a = 10
+b = 4
+result = a * b
+print(result)
+=========
+s4.py
+
+a = 15
+b = 4
+result = a // b
+print(result)
+======
+s5.py
+
+a = 15
+b = 10
+result = a % b
+print(result)
+===========
+
+=====================
+Assignment Operators
+=====================
+s1.py
+X = 10
+print(X)
+
+========
+s2.py
+
+x = 5
+x += 3 # x = x + 3
+print(x)
+=======
+s3.py
+
+x = 10
+x -= 4 # x = x - 4
+
+print(x)
+========
+s4.py
+x = 7
+x *= 2 # x = x * 2
+print(x)
+=====
+s5.py
+x = 20
+x /= 4 # x = x/4
+print (x)
+
+=====================
+Comparison Operators
+=====================
+s1.py
+
+a = 5
+b = 6
+result = (a == b)
+print(result)
+====
+s2.py
+
+#!=
+a = 5
+b = 5
+result = (a != b)
+print(result)
+===
+s3.py
+
+a = 3
+b = 7
+result = ( a > b )
+print(result)
+======
+s4.py
+a = 4
+b = 5
+result = (a >= b)
+print(result)
+
+=================
+Logical Operators
+=================
+s1.py
+
+a = 5
+b = 10
+c = 15
+
+result = (a < b) and (b > c)
+print(result)
+=======
+s2.py
+
+a = 5
+b = 10
+
+result = (a > b) or (a > b)
+
+print(result)
+
+=========
+s3.py
+
+a = 5
+b = 10
+
+result = not (a < b)
+print(result)
+
+====================
+Membership Operators
+====================
+s1.py
+
+# in Operator
+
+fruits = ['apple', 'banana', 'cheery']
+print('banana' in fruits) # Output: True
+===
+s2.py
+
+# in Operator
+
+fruits = ['apple', 'banana', 'cheery']
+print('grape' in fruits) # Output: True
+====
+s3.py
+
+# not in Operator
+fruits = ['apple', 'banana', 'cheery']
+print('grape' not in fruits) # Output: True

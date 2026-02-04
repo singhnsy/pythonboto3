@@ -1,0 +1,4 @@
+{
+    "editor.minimap.showSlider": "mouseover",
+    "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)"
+}

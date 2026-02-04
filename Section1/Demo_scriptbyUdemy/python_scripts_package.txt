@@ -1,0 +1,56 @@
+#mkdir package_folder
+
+#cd package_folder
+
+#mkdir my_package
+
+#cd my_package
+
+And then create below files except main.py which is suppose to create it on different location.
+
+math_operations.py
+
+def add(a, b):
+    return a + b
+
+def subtract(a, b):
+    return a - b
+	
+=======
+
+string_operations.py
+
+def to_upper(s):
+    return s.upper()
+
+def to_lower(s):
+    return s.lower()
+
+
+======
+
+__init__.py
+
+from .math_operations import add, subtract
+from .string_operations import to_upper, to_lower
+
+==========
+Go back one step to the location where the "my_package" directory has been created. In that location, we need to create a file named "main.py" as shown below:
+
+main.py
+
+# Import the package (my_package)
+import my_package
+
+# Use functions from the package
+
+result_add = my_package.add(3, 5)
+result_subtract = my_package.subtract(10, 2)
+result_upper = my_package.to_upper("hello")
+result_lower = my_package.to_lower("WORLD")
+
+print(f"Add: {result_add}")
+print(f"Subtract: {result_subtract}")
+print(f"Uppercase: {result_upper}")
+print(f"Lowercase: {result_lower}")
+
